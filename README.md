@@ -13,7 +13,7 @@ Usando las técnicas del "Mata Dragones" debemos domar este monstruo y convertir
 ¡Coge tu equipo y vamos allá! ⚔
 
 ## Situación:
-Nuestra calculadora recibe 3 parámetros y en función del operador suministrado por el usuario realiza una suma o una resta además tenemos la suerte de que un compañero antes de caer derrotado ha podido hacer un test unitario de la suma.
+Nuestra calculadora recibe 3 parámetros y en función del operador suministrado por el usuario realiza una suma o una resta, además tenemos la suerte de que un compañero antes de caer derrotado ha podido hacer un test unitario de la suma.
 
 ## Objetivo:
 

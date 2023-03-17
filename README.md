@@ -13,13 +13,12 @@ Usando las técnicas del "Mata Dragones" debemos domar este monstruo y convertir
 ¡Coge tu equipo y vamos allá! ⚔
 
 ## Situación:
-Nuestra calculadora recibe 3 parámetros y en función del operador suministrado por el usuario realiza una suma o una resta.
-Tenemos la suerte de que un compañero antes de caer derrotado ha podido hacer un test unitario.
+Nuestra calculadora recibe 3 parámetros y en función del operador suministrado por el usuario realiza una suma o una resta además tenemos la suerte de que un compañero antes de caer derrotado ha podido hacer un test unitario de la suma.
 
 ## Objetivo:
 
  - Añadir la operación de Multiplicar. ✖
  - Añadir la operación de Dividir. ➗
- - La nuevas operaciones deben estar cubiertas por nuevos test unitarios. ✅ 
+ - Las nuevas operaciones deben estar cubiertas por nuevos test unitarios. ✅ 
  - El test unitario de la suma no se puede modificar. 🚫
  - Al finalizar, todos los test deben estar en verde. 🟢🟢🟢

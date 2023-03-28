@@ -1,12 +1,12 @@
 # Calculón 🤖
 
-Una mañana de primavera cogemos la siguiente tarea disponible de la columna "To Do" de nuestro kamban y leemos lo siguiente:
+Una mañana de primavera cogemos la siguiente tarea disponible en la columna "To Do" de nuestro kanban y leemos lo siguiente:
 
     Como usuario de Calculón
     Quiero realizar operaciones de multiplicación y división
     Para no hacer los cálculos en papel
 
-Sabemos que Calculón es una pieza fundamental de nuestra suite de aplicaciones, pero también sabemos que muchos han pasado por ese código y pocos quedan en la empresa para contarlo(el que no dimitió está ingresado en un siquiátrico). Y es cuándo empiezas a cuestionarte muchas cosas...
+Sabemos que Calculón es una pieza fundamental de nuestra suite de aplicaciones, pero también sabemos que muchos han pasado por ese código y pocos quedan en la empresa para contarlo(el que no dimitió está en la cárcel). Y es cuándo empiezas a cuestionarte muchas cosas...
 
 Usando las técnicas del "Mata Dragones" debemos domar este monstruo y convertirlo en una mascota de terrario.
 

@@ -20,27 +20,33 @@ public class Program
         Console.ReadKey();
     }
 
-    public double Sum(double v, char g, double a)
+    public double Sum(double operator1, char operation, double operator2)
     {
-        double k = 0;
+        double result = 0;
 
-        if (g == '+')
+        if (operation == '+')
         {
             //cuando es suma entramos por este bloque 
             //para que realice la operación de sumar y
             //escribimos el resultado por consola
             //para que el usuario vea el resultado
             //en la pantalla de su terminal
-            k = v + a;
-            Console.WriteLine("The result of the addition is: " + k);
+            result = operator1 + operator2;
+            Console.WriteLine("The result of the addition is: " + result);
         }
         else
         {
             //resta
-            if (g == '-')
+            if (operation == '-')
             {
-                k = v - a;
-                Console.WriteLine("The result of the subtraction is: " + k);
+                result = operator1 - operator2;
+                Console.WriteLine("The result of the subtraction is: " + result);
+            }
+
+            if (operation == '*')
+            {
+                result = operator1 * operator2;
+                Console.WriteLine("The result of the multiplication is: " + result);
             }
             else
             {
@@ -48,6 +54,6 @@ public class Program
                 Console.WriteLine("Invalid operator");
             }
         }
-        return k;
+        return result;
     }
 }

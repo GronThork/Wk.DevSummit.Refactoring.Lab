@@ -22,3 +22,6 @@ Nuestra calculadora recibe 3 parámetros y en función del operador suministrado
  - Las nuevas operaciones deben estar cubiertas por nuevos test unitarios. ✅ 
  - El test unitario de la suma no se puede modificar. 🚫
  - Al finalizar, todos los test deben estar en verde. 🟢🟢🟢
+
+
+

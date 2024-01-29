@@ -56,13 +56,10 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
             const int num1 = 1;
             const int num2 = 0;
             const char ope = '/';
-            Exception expectedResult = new Exception("Second parameter cant be 0 when operator is /");
-
-            var calculator = new Program();
-
-            var result = calculator.Sum(num1, ope, num2);
             
-            Assert.AreEqual(expectedResult, result);
+            var calculator = new Program();
+            
+            Assert.ThrowsException<Exception>(() => calculator.Sum(num1, ope, num2));
         }
     }
 }

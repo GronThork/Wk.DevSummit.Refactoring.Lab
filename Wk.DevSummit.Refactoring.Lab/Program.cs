@@ -48,6 +48,13 @@ public class Program
                 result = operator1 * operator2;
                 Console.WriteLine("The result of the multiplication is: " + result);
             }
+            if (operation == '/')
+            {
+                if (operator2 == 0)
+                {
+                   throw new Exception("Second parameter cant be 0 when operator is /");
+                }
+            }
             else
             {
                 //si entra por aquí significa que el operador no es correcto

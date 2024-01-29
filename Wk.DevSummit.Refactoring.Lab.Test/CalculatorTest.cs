@@ -62,5 +62,21 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
             var exception = Assert.ThrowsException<Exception>(() => calculator.Sum(num1, ope, num2));
             Assert.AreEqual(exception.Message, expectedMessage);
         }
+        
+        [TestMethod]
+        public void Divide()
+        {
+            const int num1 = 4;
+            const int num2 = 2;
+            const char ope = '/';
+            
+            const double expectedResult = 2;
+
+            var calculator = new Program();
+
+            var result = calculator.Sum(num1, ope, num2);
+            
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }

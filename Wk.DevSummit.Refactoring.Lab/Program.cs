@@ -26,17 +26,11 @@ public class Program
 
         if (operation == '+')
         {
-            //cuando es suma entramos por este bloque 
-            //para que realice la operación de sumar y
-            //escribimos el resultado por consola
-            //para que el usuario vea el resultado
-            //en la pantalla de su terminal
             result = operator1 + operator2;
             Console.WriteLine("The result of the addition is: " + result);
         }
         else
         {
-            //resta
             if (operation == '-')
             {
                 result = operator1 - operator2;
@@ -60,7 +54,6 @@ public class Program
             }
             else
             {
-                //si entra por aquí significa que el operador no es correcto
                 Console.WriteLine("Invalid operator");
             }
         }

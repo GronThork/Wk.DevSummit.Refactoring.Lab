@@ -15,7 +15,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
 
             var calculator = new Program();
 
-            var result = calculator.Sum(num1, ope, num2);
+            var result = calculator.Calculon(num1, ope, num2);
             
             Assert.AreEqual(expectedResult, result);
         }
@@ -30,7 +30,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
 
             var calculator = new Program();
 
-            var result = calculator.Sum(num1, ope, num2);
+            var result = calculator.Calculon(num1, ope, num2);
             
             Assert.AreEqual(expectedResult, result);
         }
@@ -45,7 +45,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
 
             var calculator = new Program();
 
-            var result = calculator.Sum(num1, ope, num2);
+            var result = calculator.Calculon(num1, ope, num2);
             
             Assert.AreEqual(expectedResult, result);
         }
@@ -59,7 +59,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
             var expectedMessage = "Second parameter cant be 0 when operator is /";
             var calculator = new Program();
             
-            var exception = Assert.ThrowsException<Exception>(() => calculator.Sum(num1, ope, num2));
+            var exception = Assert.ThrowsException<Exception>(() => calculator.Calculon(num1, ope, num2));
             Assert.AreEqual(exception.Message, expectedMessage);
         }
         
@@ -74,7 +74,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
 
             var calculator = new Program();
 
-            var result = calculator.Sum(num1, ope, num2);
+            var result = calculator.Calculon(num1, ope, num2);
             
             Assert.AreEqual(expectedResult, result);
         }

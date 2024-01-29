@@ -15,12 +15,12 @@ public class Program
         Console.Write("Enter the operator (+, -, *, /): ");
         var operation = Convert.ToChar(Console.ReadLine());
 
-        new Program().Sum(operator1, operation, operator2);
+        new Program().Calculon(operator1, operation, operator2);
 
         Console.ReadKey();
     }
 
-    public double Sum(double operator1, char operation, double operator2)
+    public double Calculon(double operator1, char operation, double operator2)
     {
         double result = 0;
 

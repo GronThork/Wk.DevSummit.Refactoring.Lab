@@ -51,7 +51,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
         }
         
         [TestMethod]
-        public void ThrowAnErrorWhenDenominatorIs0()
+        public void WhenOperatorIsDivisionAndDenominatorIs0ThenThrowAnError()
         {
             const int num1 = 1;
             const int num2 = 0;
@@ -64,7 +64,7 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
         }
         
         [TestMethod]
-        public void Divide()
+        public void Division()
         {
             const int num1 = 4;
             const int num2 = 2;

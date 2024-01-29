@@ -54,6 +54,9 @@ public class Program
                 {
                    throw new Exception("Second parameter cant be 0 when operator is /");
                 }
+                
+                result = operator1 / operator2;
+                Console.WriteLine("The result of the division is: " + result);
             }
             else
             {

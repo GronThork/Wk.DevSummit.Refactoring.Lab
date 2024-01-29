@@ -7,15 +7,15 @@ public class Program
     static void Main(string[] args)
     {
         Console.Write("Enter the first number: ");
-        var l = Convert.ToDouble(Console.ReadLine());
+        var operator1 = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter the second number: ");
-        var h = Convert.ToDouble(Console.ReadLine());
+        var operator2 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter the operator (+, -): ");
-        var o = Convert.ToChar(Console.ReadLine());
+        Console.Write("Enter the operator (+, -, *, /): ");
+        var operation = Convert.ToChar(Console.ReadLine());
 
-        new Program().Sum(l, o, h);
+        new Program().Sum(operator1, operation, operator2);
 
         Console.ReadKey();
     }

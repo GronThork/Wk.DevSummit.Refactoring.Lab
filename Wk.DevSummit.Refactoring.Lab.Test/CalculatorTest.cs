@@ -49,5 +49,20 @@ namespace Wk.DevSummit.Refactoring.Lab.Test
             
             Assert.AreEqual(expectedResult, result);
         }
+        
+        [TestMethod]
+        public void ThrowAnErrorWhenDenominatorIs0()
+        {
+            const int num1 = 1;
+            const int num2 = 0;
+            const char ope = '/';
+            Exception expectedResult = new Exception("Second parameter cant be 0 when operator is /");
+
+            var calculator = new Program();
+
+            var result = calculator.Sum(num1, ope, num2);
+            
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
